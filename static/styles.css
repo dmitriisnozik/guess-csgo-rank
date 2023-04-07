@@ -1,0 +1,18 @@
+body {
+    background: #404040;
+    color: white;
+    font-family: 'Century Gothic';
+    text-align: center;
+}
+.flash {
+    padding: 10px;
+    margin: 10px;
+}
+.flash.correct {
+    border: 1px solid #21DB56;
+    background: #AEFFC5;
+}
+.flash.incorrect {
+    border: 1px solid #FF4343;
+    background: #FF9C9C;
+}

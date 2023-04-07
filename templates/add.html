@@ -1,0 +1,16 @@
+{% extends 'template.html' %}
+
+{% block content %}
+ <form method="POST" class="add">
+     <p><input type="text" name="video_url" placeholder="Video url" required></p>
+     <p>Silver <input type="checkbox" name="rank" value="SILVER"></p>
+     <p>Gold nova<input type="checkbox" name="rank" value="GOLD NOVA"></p>
+     <p>Master guardian <input type="checkbox" name="rank" value="MG"></p>
+     <p>Distinguished master guardian<input type="checkbox" name="rank" value="DMG"></p>
+     <p>Legendary eagle master <input type="checkbox" name="rank" value="LEM"></p>
+     <p>Supreme master first class<input type="checkbox" name="rank" value="SMFC"></p>
+     <p>Global elite <input type="checkbox" name="rank" value="GLOBAL ELITE"></p>
+     <p><input type="password" name="password" placeholder="Password" required></p>
+     <p><input type="submit" name="submit_button" value="Submit"></p>
+ </form>
+{% endblock %}
